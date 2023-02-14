@@ -16,17 +16,15 @@ public class task {
                 result = result * a;
             }
             if (b > 0){
-                //System.out.println(result);
                 System.out.println(result);
             }
             else {
-                double temp = 0;
+                double resultNegativeDegree = 0;
                 for (int i = 1; i < b *-1; i++){
                     result = result * a;
-                //System.out.printf("Число %d в степени %d равняется %f", a, b, z);
             }
-            temp = 1/result;
-            System.out.println(1/result);
+            resultNegativeDegree = 1/result;
+            System.out.println(resultNegativeDegree);
         }
     }
 }
