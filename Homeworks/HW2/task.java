@@ -2,6 +2,7 @@ package Homeworks.HW2;
 
 import java.util.Scanner;
 
+
 public class task {
     public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
@@ -16,6 +17,10 @@ public class task {
                 result = result * a;
             }
             if (b > 0){
+                System.out.println(result);
+            }
+            else if (b == 0){
+                result = 1;
                 System.out.println(result);
             }
             else {
