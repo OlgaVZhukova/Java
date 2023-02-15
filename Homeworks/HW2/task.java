@@ -1,13 +1,28 @@
 package Homeworks.HW2;
 
+
 import java.util.Scanner;
 import java.io.File;
 import java.io.PrintWriter;
+import java.io.IOException;
 
 
 public class Task {
     public static void main(String[] args) {
-        File file = new File("newFile.txt");
+        try {
+            File file = new File("input.txt");
+
+            if(!file.exists())
+                file.createNewFile();
+            
+            PrintWriter pw = new PrintWriter(file);
+            pw.println("b 3");
+            pw.println("a 10");
+            pw.close();
+
+        } catch (IOException e) {
+            System.out.print("Error: " + e);
+        }
         Scanner Scanner = new Scanner(System.in);
         System.out.println("Введите число a: ");
         double a = Scanner.nextDouble();
