@@ -2,8 +2,9 @@
 
 package Homeworks.HW1;
 
+
 import java.util.Scanner;
-public class task1 {
+public class Task1 {
     public static void main(String[] args) {
         Scanner Scanner = new Scanner(System.in);
         System.out.printf("Введите число: ");
@@ -13,11 +14,11 @@ public class task1 {
     }
 
 
-    static int Triangle(int num) {
+    static int triangle(int num) {
         if (num == 1) {
             return 1;
         }
-        return Triangle(num - 1) + num;
+        return triangle(num - 1) + num;
     }
 }
 

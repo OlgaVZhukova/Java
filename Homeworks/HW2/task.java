@@ -1,10 +1,13 @@
 package Homeworks.HW2;
 
 import java.util.Scanner;
+import java.io.File;
+import java.io.PrintWriter;
 
 
 public class task {
     public static void main(String[] args) {
+        File file = new File("newFile.txt");
         Scanner Scanner = new Scanner(System.in);
         System.out.println("Введите число a: ");
         double a = Scanner.nextDouble();
