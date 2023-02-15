@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.PrintWriter;
 
 
-public class task {
+public class Task {
     public static void main(String[] args) {
         File file = new File("newFile.txt");
         Scanner Scanner = new Scanner(System.in);

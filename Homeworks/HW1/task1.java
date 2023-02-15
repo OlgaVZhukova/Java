@@ -10,7 +10,7 @@ public class Task1 {
         System.out.printf("Введите число: ");
         int n = Scanner.nextInt();
         Scanner.close();
-        System.out.printf("Треугольное число = %s", Triangle(n));
+        System.out.printf("Треугольное число = %s", triangle(n));
     }
 
 
