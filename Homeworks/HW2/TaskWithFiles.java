@@ -52,7 +52,6 @@ public class TaskWithFiles {
         } catch (IOException e) {
             System.out.print("Error: " + e);
         }
-        
-        
     }
 }
+
