@@ -18,7 +18,7 @@ public class TaskWithFiles {
                 file.createNewFile();
             
             PrintWriter pw = new PrintWriter(file);
-            pw.println("2 3");
+            pw.println("2 -2");
             //pw.println("3");
             pw.close();
 
@@ -36,6 +36,26 @@ public class TaskWithFiles {
             }
             System.out.println(Arrays.toString(numbers));
             scanner.close();
+            double a = numbers[0];
+            double b = numbers[1];
+            double result = a;
+            for (int i = 1; i < b; i++){
+                result = result * a;
+            }
+            if (b > 0){
+                System.out.println(result);
+            }
+            else if (b == 0){
+                result = 1;
+                System.out.println(result);
+            }
+            else {
+                double resultNegativeDegree = 0;
+                for (int i = 1; i < b *-1; i++){
+                    result = result * a;
+            }
+            resultNegativeDegree = 1/result;
+            System.out.println(resultNegativeDegree);}
         } catch (IOException e) {
             System.out.print("Error: " + e);
         } /*finally {
@@ -44,7 +64,7 @@ public class TaskWithFiles {
             } catch (IOException e) {
             System.out.print("Error: " + e);
             }*/
-        }
+        
         //Scanner Scanner = new Scanner(System.in);
         //System.out.println("Введите число a: ");
         //double a = Scanner.nextDouble();
@@ -71,4 +91,5 @@ public class TaskWithFiles {
             resultNegativeDegree = 1/result;
             System.out.println(resultNegativeDegree);
         }*/
+    }
 }
