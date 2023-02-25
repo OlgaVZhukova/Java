@@ -1,6 +1,5 @@
 //Реализовать волновой алгоритм.
 
-package Homeworks.HW5;
 
 public class Program {
     public static void main(String[] args) {
