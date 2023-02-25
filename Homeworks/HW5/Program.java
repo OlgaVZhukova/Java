@@ -2,6 +2,11 @@
 
 package Homeworks.HW5;
 
-public class TaskHW5 {
-    
+
+
+public class Program {
+
+	
+
 }
+
