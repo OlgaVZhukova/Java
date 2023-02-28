@@ -1,3 +1,5 @@
+package Homeworks.HW5;
+
 //Реализовать волновой алгоритм.
 
 import java.io.*;
